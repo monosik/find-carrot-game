@@ -1,0 +1,7 @@
+GRect button_solution = new GRect(CARROT_PLOT, CARROT_PLOT);
+		int x = (getWidth() / 2) - (CARROT_PLOT / 2);
+		int y = getHeight() - (CARROT_PLOT * 2);
+		button_solution.setFilled(true);
+		button_solution.setFillColor(Color.red);
+		add(button_solution, x, y);
+		return button_solution;
